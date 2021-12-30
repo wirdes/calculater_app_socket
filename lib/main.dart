@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
 
 class MyHomePage extends StatefulWidget {
   final WebSocketChannel channel =
-      IOWebSocketChannel.connect("ws://192.168.1.33:3000");
+      IOWebSocketChannel.connect("ws://10.0.2.2:3000");
 
   MyHomePage({Key? key}) : super(key: key);
 
